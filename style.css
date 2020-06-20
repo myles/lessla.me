@@ -1,0 +1,30 @@
+body {
+  background-color: #000;
+  font-size: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: .75;
+  background: #CF4232;
+  background: linear-gradient(
+    217deg, #CF4232, #EB7F23, #FAC023, #068675, #6B202E
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 a:hover {
+  color: #fff;
+}
